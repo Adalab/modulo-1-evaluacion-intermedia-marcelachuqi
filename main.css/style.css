@@ -28,6 +28,7 @@
 .logo {
   padding-top: 10px;
   padding-right: 50%;
+  padding-left: 50%;
 }
 
 .sector_1 {
@@ -44,7 +45,4 @@
   color: var(--maintextcolor);
   font-family: var(--font-family);
   text-transform: capitalize;
-}
-
-.blog {
 }
