@@ -1,0 +1,44 @@
+:root {
+  --menutextcolor: #4a4a4a;
+  --backgroundcolor: #3cdbc0;
+  --maintextcolor: #ffffff;
+  --font-family: "Rubik", sans-serif;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: inline-block;
+}
+
+.menu_bar {
+  padding-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  padding-top: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sector_1 {
+  background-color: var(--backgroundcolor);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title {
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  color: var(--maintextcolor);
+  font-family: var(--font-family);
+  text-transform: capitalize;
+}
