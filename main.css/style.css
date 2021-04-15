@@ -20,6 +20,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  font-family: var(--font-family);
+  color: var(--menutextcolor);
+  text-transform: uppercase;
 }
 
 .logo {
@@ -41,4 +44,7 @@
   color: var(--maintextcolor);
   font-family: var(--font-family);
   text-transform: capitalize;
+}
+
+.blog {
 }
